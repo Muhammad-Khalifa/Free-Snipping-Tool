@@ -407,19 +407,6 @@ namespace FreeSnippingTool
                 this.Close();
         }
 
-        async Task DelayAction()
-        {
-            await Task.Delay(250);
-        }
-
-        #endregion
-
-      
-
-        private void BtnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
         private async void BtnUpload_Click(object sender, EventArgs e)
         {
@@ -431,12 +418,23 @@ namespace FreeSnippingTool
 
             cropRect.Visible = true;
 
-
-
             this.Close();
 
             FrmUploader upload = new FrmUploader(img);
             upload.Show();
         }
+
+        private void BtnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        async Task DelayAction()
+        {
+            await Task.Delay(250);
+        }
+
+        #endregion
+
     }
 }
