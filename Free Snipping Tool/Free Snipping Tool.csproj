@@ -143,7 +143,7 @@
     <Compile Include="Operations\UndoRedo.cs" />
     <Compile Include="Operations\UploadResult.cs" />
     <Compile Include="Operations\UploadToSuar.cs" />
-    <Compile Include="Operations\UserRect.cs" />
+    <Compile Include="Operations\CropRect.cs" />
     <EmbeddedResource Include="CommonImages.en.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonImages.en.Designer.cs</LastGenOutput>
