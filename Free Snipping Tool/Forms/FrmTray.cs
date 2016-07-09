@@ -38,8 +38,6 @@ namespace FreeSnippingTool
                 options.lang = "en";
                 Settings.SaveSettings(options);
             }
-
-          
         }
 
         void ApplySettings()
