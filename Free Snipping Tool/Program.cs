@@ -10,6 +10,7 @@ namespace FreeSnippingTool
 {
     static class Program
     {
+        //Start
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
