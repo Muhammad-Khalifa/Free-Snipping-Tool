@@ -381,6 +381,7 @@ namespace FreeSnippingTool
             sfd.Title = "Save an Image File";
             sfd.RestoreDirectory = true;
             sfd.Filter = "PNG Image|*.png|Jpeg Image|*.jpg|Bitmap Image|*.bmp";
+            sfd.FileName = string.Format("screenshot {0}",  DateTime.Now.ToString("HH-dd-MM")); 
             ImageFormat imgformat = ImageFormat.Png;
             if (sfd.ShowDialog() == DialogResult.OK)
             {
